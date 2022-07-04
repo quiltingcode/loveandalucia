@@ -9,7 +9,7 @@
 body {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
-    color: #3a3a3aS;
+    color: #3a3a3a;
 }
     
 /* headings and logo */
@@ -22,5 +22,35 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 340%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;;
 }
