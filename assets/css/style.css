@@ -1,3 +1,13 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Dancing+Script:wght@600&family=Itim&family=Kalam&family=Montserrat+Alternates&family=Nothing+You+Could+Do&family=Parisienne&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+body {
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 400;
+}
+    
