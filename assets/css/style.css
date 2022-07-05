@@ -23,12 +23,13 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 340%;
+    margin-left: 15px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 80%;
     letter-spacing: 2px;
 }
 
@@ -53,4 +54,19 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;;
+}
+
+/* intro section */
+
+#intro-outer {
+    height: 50px;
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+#intro {
+   height: 50px;
+   width: 100%; 
 }
