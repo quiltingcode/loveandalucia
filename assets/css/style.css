@@ -70,3 +70,31 @@ h1, h2 {
    height: 50px;
    width: 100%; 
 }
+
+/* responsive design - media queries */
+
+/* for large to medium screen size from 1200px wide and below */
+@media screen and (max-width: 1200px) {
+  
+    #menu, #logo {
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        float: left;  
+    }
+
+
+}
+
+/* for large to medium screen size from 950px wide and below */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        /* float: left; */
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        text-align: center;
+
+    }
+}
