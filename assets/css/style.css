@@ -69,14 +69,19 @@ h1 {
 }
 
 #intro {
-   width: 95%; 
+   
+   width: 95%;
    text-align: justify;
-   background-size: contain auto;
+   background-size: contain;
 }
 
 #intro h2 {
     padding-bottom: 15px;
     text-align: center;
+}
+
+#links-outer {
+    display: inline-block;
 }
 
 /* responsive design - media queries */
@@ -98,10 +103,21 @@ h1 {
         text-align: center;
     }
 
+    #intro-outer {
+        height: 300px;
+        width: 100%;
+        clear: both;
+    }
+
 }
 
-/* for medium screen size from 950px wide and below */
+/* for small screen size from 800px wide and below */
 
 @media  screen and (max-width: 800px) {
+    #intro-outer {
+        height: 450px;
+        width: 100%;
+        clear: both;
+    }
     
 }
