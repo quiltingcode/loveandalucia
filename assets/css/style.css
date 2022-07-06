@@ -89,14 +89,20 @@ h1 {
 /* Links Section */
 
 #links {
-    height: 300px;
+    height: 600px;
 }
 
 #left-link {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    background-image: url(../css/images/plaza-de-espania-gd48d6ee36_1920.jpg);
+    background-size: auto;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+
+
 }
 
 #right-link {
