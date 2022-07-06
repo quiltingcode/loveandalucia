@@ -14,7 +14,7 @@ body {
     
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: 'Nothing You Could Do', cursive, sans-serif;
     letter-spacing: 2px;
     color: #252525;
@@ -59,17 +59,24 @@ h1, h2 {
 /* introduction section */
 
 #intro-outer {
-    height: 150px;
+    height: 260px;
     width: 100%;
     clear: both;
     padding-top: 20px;
     padding-left: 15px;
     background-color: rgb(127, 225, 255);
+    
 }
 
 #intro {
-   height: 50px;
-   width: 100%; 
+   width: 95%; 
+   text-align: justify;
+   background-size: contain auto;
+}
+
+#intro h2 {
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 /* responsive design - media queries */
