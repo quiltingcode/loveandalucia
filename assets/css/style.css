@@ -55,33 +55,31 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* introduction section */
 
-#intro-outer {
+#intro-background {
     height: 300px;
     width: 100%;
     clear: both;
-    color: blanchedalmond;
     padding-top: 20px;
     padding-left: 15px; 
     background-image: url('../css/images/sunset-ge84a3af5c_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
-
 
 }
 
 #intro {
-   
-   width: 95%;
-   text-align: justify;
-   background-size: contain;
-}
+    width: 95%;
+    text-align: justify;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    
+ }
 
 #intro h2 {
     padding-bottom: 15px;
@@ -98,18 +96,21 @@ h1 {
     padding-top: 30px;
     width: 33%;
     float: left;
+    background-color: blue;
 }
 
 #right-link {
     padding-top: 30px;
     width: 33%;
     float: right;
+    background-color: silver;
 }
 
 #center-link {
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto
+    margin: 0 auto;
+    background-color: green;
 }
 
 /* responsive design - media queries */
