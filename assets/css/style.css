@@ -24,9 +24,15 @@ h1 {
 }
 
 header {
-    background-color: white;
+    background-color: white;  
+    border-style: solid; 
+    padding: 0;
+}
+
+header a:link {
     text-decoration: none;
 }
+
 
 /* navigation links */
 
@@ -38,6 +44,10 @@ nav {
     text-align: center;
 }
 
+.blue-background {
+    background-color: cornflowerblue;
+}
+
 nav > a {
 	text-decoration: none;
 	color: #252525;
@@ -47,34 +57,6 @@ nav > a {
 nav > a:hover {
     color: #ffb94d;
 }
-
-/* #menu {
-    font-size: 80%;
-    letter-spacing: 2px;
-    clear: both;
-    list-style-type: none;
-}
-
-#menu, #logo {
-    line-height: 75px;
-    width: 100%;
-    margin: auto;
-}
-
-#menu li {
-    float: left;
-    list-style-type: none;
-    margin-right: 15px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit; 
-} */
-
-/* #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-} */
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -88,7 +70,8 @@ h2 {
 }
     
 #intro-background {
-    height: 300px;
+    min-height: 100px;
+    overflow: hidden;
     width: 100%;
     clear: both;
     padding-top: 20px;
