@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Dancing+Script:wght@600&family=Itim&family=Kalam&family=Montserrat+Alternates&family=Nothing+You+Could+Do&family=Parisienne&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: none;
-}
+} */
 
 body {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
+    margin: 0;
 }
     
 /* headings and logo */
@@ -19,27 +20,49 @@ h1 {
     font-family: 'Nothing You Could Do', cursive, sans-serif;
     letter-spacing: 2px;
     color: #252525;
+    font-size: 4rem;
 }
 
-#logo {
-    float: left;
-    font-size: 380%;
-    margin: 0 auto 0 15px;
+header {
+    background-color: white;
+    text-decoration: none;
 }
 
 /* navigation links */
 
-#menu {
+nav {
+    padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav > a {
+	text-decoration: none;
+	color: #252525;
+	margin: 1rem;
+}
+
+nav > a:hover {
+    color: #ffb94d;
+}
+
+/* #menu {
     font-size: 80%;
     letter-spacing: 2px;
+    clear: both;
+    list-style-type: none;
 }
 
 #menu, #logo {
     line-height: 75px;
+    width: 100%;
+    margin: auto;
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 15px;
 }
@@ -47,11 +70,11 @@ h1 {
 #menu a {
     text-decoration: none;
     color: inherit; 
-}
+} */
 
-#menu a:hover {
+/* #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
-}
+} */
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -128,40 +151,23 @@ h2 {
 
 /* responsive design - media queries */
 
-/* for small screen size from 800px wide and below */
+/* for small mobile screen size from 576px wide and up */
 
-@media  screen and (max-width: 800px) {
-    #intro-outer {
-        height: 450px;
-        width: 100%;
-        clear: both;
-    }
+@media  screen and (min-width: 576px) {
+    
     
 }
   
   
-/* for medium screen size from 950px wide and below */
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        text-align: center;
-    }
-
-    #intro-outer {
-        height: 300px;
-        width: 100%;
-        clear: both;
-    }
+/* for medium tablet screen size from 768px wide and up */
+@media screen and (min-width: 768px) {
+   
 
 }
 
 
 
-/* for large to medium screen size from 1200px wide and below */
-@media screen and (max-width: 1200px) {
+/* for large screen size from 992px wide and up */
+@media screen and (min-width: 992px) {
 
 }
