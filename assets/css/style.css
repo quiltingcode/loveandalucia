@@ -60,6 +60,11 @@ h1 {
 
 /* introduction section */
 
+h2 {
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
+    letter-spacing: 2px;
+}
+    
 #intro-background {
     height: 300px;
     width: 100%;
@@ -89,7 +94,7 @@ h1 {
 /* Links Section */
 
 #links {
-    height: 600px;
+    height: 200px;
 }
 
 #left-link {
@@ -97,8 +102,9 @@ h1 {
     width: 33%;
     float: left;
     background-image: url(../css/images/plaza-de-espania-gd48d6ee36_1920.jpg);
-    background-size: auto;
-    line-height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    line-height: 200px;
     clear: both;
     margin-bottom: 50px;
 
