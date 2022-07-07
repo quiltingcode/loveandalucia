@@ -10,7 +10,6 @@ body {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
-    background-color: rgb(127, 225, 255);
 }
     
 /* headings and logo */
@@ -71,7 +70,7 @@ h2 {
     clear: both;
     padding-top: 20px;
     padding-left: 15px; 
-    background-image: url('../css/images/sunset-ge84a3af5c_1920.jpg');
+    background-image: url('../images/sunset-ge84a3af5c_1920.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -97,18 +96,20 @@ h2 {
     height: 200px;
 }
 
+#links h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #left-link {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-image: url(../css/images/plaza-de-espania-gd48d6ee36_1920.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    line-height: 200px;
+    line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-
-
+    
 }
 
 #right-link {
