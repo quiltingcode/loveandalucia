@@ -126,7 +126,6 @@ h2 {
     color: #252525;
     /* text-decoration: none; */
     margin-left: 50px;
-    hover: #ffb94d;
 }
 
 #left-link:hover {
@@ -135,8 +134,9 @@ h2 {
 
 .links-pics {
     height: 150px;
-    width: 50%;
+    width: 40%;
     background: no-repeat;
+    border-radius: 3%;
 
 }
 
@@ -148,15 +148,31 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+}
+
+#right-link a {
+    font-family: 'Itim', cursive, sans-serif;
+    font-weight: 400;
+    color: #252525;
+    /* text-decoration: none; */
+    margin-right: 50px;
 }
 
 #center-link {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
+
+#center-link a {
+    font-family: 'Itim', cursive, sans-serif;
+    font-weight: 400;
+    color: #252525;
+    /* text-decoration: none; */
+    margin-left: 50px;
+}
+
+
 
 /* responsive design - media queries */
 
