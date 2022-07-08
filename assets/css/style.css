@@ -27,17 +27,18 @@ header {
     background-color: white;  
     border-style: solid; 
     padding: 0;
+    width: 100%;
 }
 
 header a:link {
     text-decoration: none;
 }
 
-
 /* navigation links */
 
 nav {
     padding: 1rem;
+    width: 100%;
 }
 
 .text-center {
@@ -74,7 +75,6 @@ h2 {
     overflow: hidden;
     width: 100%;
     clear: both;
-    padding-top: 20px;
     padding-left: 15px; 
     background-image: url('../images/sunset-ge84a3af5c_1920.jpg');
     background-size: cover;
@@ -82,21 +82,23 @@ h2 {
 
 }
 
-#intro {
+#intro-box {
     width: 95%;
     text-align: justify;
-    color: white;
+    clear: both;
     background: rgba(0, 0, 0, 0.3);
     background-color: transparent;
-    
- }
+}
 
-#intro h2 {
-    padding-bottom: 15px;
-    text-align: center;
+.text-white {
+    color: white;
 }
 
 /* Links Section */
+
+.border-solid {
+    border-style: solid; 
+}
 
 #links {
     height: 200px;
@@ -106,6 +108,7 @@ h2 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0;
 }
 
 #left-link {
@@ -115,7 +118,30 @@ h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    
+}
+
+#left-link a {
+    font-family: 'Itim', cursive, sans-serif;
+    font-weight: 400;
+    color: #252525;
+    /* text-decoration: none; */
+    margin-left: 50px;
+    hover: #ffb94d;
+}
+
+#left-link:hover {
+    color: #ffb94d;
+}
+
+.links-pics {
+    height: 150px;
+    width: 50%;
+    background: no-repeat;
+
+}
+
+#places-picture {
+
 }
 
 #right-link {
