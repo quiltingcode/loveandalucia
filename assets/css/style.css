@@ -101,7 +101,11 @@ h2 {
 }
 
 #links {
-    height: 200px;
+    min-height: 100px;
+    overflow: hidden;
+    width: 100%;
+    clear: both;
+    background-color: rgba(100, 149, 237, 0.5);
 }
 
 #links h2 {
@@ -145,9 +149,15 @@ h2 {
 }
 
 #right-link {
+    /* padding-top: 30px;
+    width: 33%;
+    float: right; */
     padding-top: 30px;
     width: 33%;
-    float: right;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 #right-link a {
@@ -155,13 +165,19 @@ h2 {
     font-weight: 400;
     color: #252525;
     /* text-decoration: none; */
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 #center-link {
+    /* padding-top: 30px;
+    width: 33%;
+    margin: 0 auto; */
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
 #center-link a {
