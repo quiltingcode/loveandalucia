@@ -139,46 +139,27 @@ h2 {
 
 }
 
-#places-picture {
+/* Reasons */
 
+#reasons {
+    background-image: url('../images/rondabigpixabay-1128812.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
 }
 
-#right-link {
-    /* padding-top: 30px;
+#reasons div {
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
     width: 33%;
-    float: right; */
-    padding-top: 30px;
-    width: 33%;
+    height: 150px;
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#right-link a {
-    font-family: 'Itim', cursive, sans-serif;
-    font-weight: 400;
-    color: #252525;
-    margin-right: 50px;
-}
-
-#center-link {
-    /* padding-top: 30px;
-    width: 33%;
-    margin: 0 auto; */
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#center-link a {
-    font-family: 'Itim', cursive, sans-serif;
-    font-weight: 400;
-    color: #252525;
-    margin-left: 50px;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 /* map section */
