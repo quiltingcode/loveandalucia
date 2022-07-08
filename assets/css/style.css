@@ -128,12 +128,7 @@ h2 {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #252525;
-    /* text-decoration: none; */
     margin-left: 50px;
-}
-
-#left-link:hover {
-    color: #ffb94d;
 }
 
 .links-pics {
@@ -164,8 +159,7 @@ h2 {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #252525;
-    /* text-decoration: none; */
-    /* margin-right: 50px; */
+    margin-right: 50px;
 }
 
 #center-link {
@@ -184,11 +178,36 @@ h2 {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #252525;
-    /* text-decoration: none; */
     margin-left: 50px;
 }
 
+/* map section */
 
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:356px;
+    width:1052px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:356px;
+    width:1052px;
+}
+
+
+/* #map-outer {
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+} */
 
 /* responsive design - media queries */
 
@@ -210,5 +229,19 @@ h2 {
 
 /* for large screen size from 992px wide and up */
 @media screen and (min-width: 992px) {
+
+    #right-link {
+        padding-top: 30px;
+        width: 33%;
+        float: right;
+    }
+
+    #center-link {
+        padding-top: 30px;
+        width: 33%;
+        margin: 0 auto; 
+    }
+
+
 
 }
