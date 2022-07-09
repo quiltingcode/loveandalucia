@@ -151,6 +151,8 @@ h2 {
 
 footer {
     height: 50px;
+    width: 100%;
+    margin: 0;
 }
 
 .social-networks {
