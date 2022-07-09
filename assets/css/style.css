@@ -9,7 +9,8 @@
 body {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    /* color: #3a3a3a; */
+    color: #252525;
     margin: 0;
 }
     
@@ -69,25 +70,21 @@ h2 {
     font-family: 'Nothing You Could Do', cursive, sans-serif;
     letter-spacing: 2px;
 }
-    
-#intro-background {
-    min-height: 100px;
-    overflow: hidden;
-    width: 100%;
-    clear: both;
-    padding-left: 15px; 
-    background-image: url('../images/sunset-ge84a3af5c_1920.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 
+#img-sunset {
+    height: auto;
+	width: 100%;
+	margin: auto;
 }
+    
 
 #intro-box {
     width: 95%;
-    text-align: justify;
+    padding: ;
+    text-align: center;
     clear: both;
-    background: rgba(0, 0, 0, 0.3);
-    background-color: transparent;
+    border-bottom: 2px solid #252525;
+    
 }
 
 .text-white {
@@ -145,6 +142,29 @@ h2 {
     width:700px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* places intro */
+
+#places-intro-background {
+    min-height: 100px;
+    overflow: hidden;
+    width: 100%;
+    clear: both;
+    padding-left: 15px; 
+    /* background-image: url('../images/miguel-alonso-UduZ84bMydo-unsplash.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#places-intro-box {
+    width: 95%;
+    text-align: center;
+    clear: both;
+    /* background: rgba(0, 0, 0, 0.3);
+    background-color: transparent; */
+    color: #252525;
 }
 
 /* footer */
