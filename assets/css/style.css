@@ -78,7 +78,9 @@ h2 {
 }
 
 #intro-box {
-    width: 95%;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     clear: both;
 }
@@ -138,25 +140,17 @@ h2 {
 
 /* places intro */
 
-#places-intro-background {
-    min-height: 100px;
-    overflow: hidden;
-    width: 100%;
-    clear: both;
-    padding-left: 15px; 
-    /* background-image: url('../images/miguel-alonso-UduZ84bMydo-unsplash.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-#places-intro-box {
+#places-box {
     width: 95%;
     text-align: center;
     clear: both;
-    /* background: rgba(0, 0, 0, 0.3);
-    background-color: transparent; */
     color: #252525;
+}
+
+#img-beach {
+    height: auto;
+	width: 100%;
+	margin: auto;
 }
 
 /* footer */
