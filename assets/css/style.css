@@ -76,19 +76,11 @@ h2 {
 	width: 100%;
 	margin: auto;
 }
-    
 
 #intro-box {
     width: 95%;
-    padding: ;
     text-align: center;
     clear: both;
-    border-bottom: 2px solid #252525;
-    
-}
-
-.text-white {
-    color: white;
 }
 
 .border-solid {
@@ -186,7 +178,6 @@ footer {
 .social-networks i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
     color: #3a3a3a;
 }
 
@@ -216,6 +207,13 @@ footer {
     background:none!important;
     height:341px;
     width:575px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 
