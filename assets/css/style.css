@@ -176,10 +176,6 @@ h2 {
     box-sizing: border-box;
 }
 
-#places-types div:hover {
-    opacity: 0.5;
-}
-
 #places-types a {
     color: #3a3a3a;
     text-decoration: none;
@@ -195,11 +191,11 @@ h2 {
 }
 
 #coastal-nav {
-    background-color: #66e6ff;
+    background-color: #8066ff;
 }
 
 #country-nav {
-    background-color: #8066ff;
+    background-color: #66e6ff;
 }
 
 #img-beach {
