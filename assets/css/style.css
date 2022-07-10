@@ -161,6 +161,32 @@ h2 {
 	margin: auto;
 }
 
+#city-box {
+	background-color: #6699ff;
+    position: relative;
+    left: 70px;
+    top: -15px;
+}
+
+#coast-box {
+	background-color: #8066ff;
+	position: relative;
+	z-index: 1;
+}
+
+#countryside-box {
+	background-color: #66e6ff;
+    position: relative;
+    right: 70px;
+    top: -15px;
+}
+
+.holiday-box {
+	width: 33%;
+	margin: 1rem 0;
+	display: inline-block;
+}
+
 /* footer */
 
 footer {
