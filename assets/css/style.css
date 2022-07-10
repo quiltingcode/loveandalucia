@@ -112,10 +112,18 @@ h2 {
     box-sizing: border-box;
 }
 
+#reasons div:hover {
+    opacity: 0.5;
+}
+
 #reasons a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+#reasons a:hover {
+    opacity: 0.7;
 }
 
 /* map section */
