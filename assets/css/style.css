@@ -300,16 +300,16 @@ footer {
 
 
 
-/* for small mobile screen size from 576px wide and up */
+/* for small mobile screen size from 375px wide and up */
 
-@media  screen and (min-width: 576px) {
+@media  screen and (min-width: 375px) {
     
     
 }
   
   
-/* for medium tablet screen size from 768px wide and up */
-@media screen and (min-width: 768px) {
+/* for medium tablet screen size from 820px wide and up */
+@media screen and (min-width: 820px) {
    
      /* map section */
 
@@ -340,8 +340,8 @@ footer {
 
 
 
-/* for large screen size from 992px wide and up */
-@media screen and (min-width: 992px) {
+/* for large screen size from 1200px wide and up */
+@media screen and (min-width: 1200px) {
 
     #right-link {
         padding-top: 30px;
