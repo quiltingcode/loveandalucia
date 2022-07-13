@@ -53,7 +53,7 @@ nav {
 nav > a {
 	text-decoration: none;
 	color: #252525;
-	margin: 1rem;
+	margin: 0.5rem;
 }
 
 nav > a:hover {
@@ -124,26 +124,6 @@ h2 {
 
 #reasons a:hover {
     opacity: 0.7;
-}
-
-/* map section */
-
-.mapouter {
-    position:relative;
-    /* text-align: right; */
-    height:300px;
-    width:700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:300px;
-    width:700px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* places intro */
@@ -303,14 +283,18 @@ footer {
 /* for small mobile screen size from 375px wide and up */
 
 @media  screen and (min-width: 375px) {
-    
+   
     
 }
   
   
 /* for medium tablet screen size from 820px wide and up */
 @media screen and (min-width: 820px) {
-   
+
+    nav > a {
+        margin: 1rem;
+    }
+       
      /* map section */
 
 .mapouter {
