@@ -201,6 +201,22 @@ h2 {
 	display: inline-block;
 }
 
+.destinations-boxes {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+#beach-list {
+    width: 50%;
+    float: left;
+}
+
+#beach-img {
+    width: 50%;
+    float: right;
+}
+
 /* footer */
 
 footer {
