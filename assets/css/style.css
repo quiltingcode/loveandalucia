@@ -137,11 +137,10 @@ h2 {
 
 #places-types div {
     color: white;
-    /* background-color: rgba(0, 0, 0, .6); */
     width: 33%;
-    height: 150px;
+    height: 100px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -150,7 +149,8 @@ h2 {
 #places-types a {
     color: #3a3a3a;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-family: 'Nothing You Could Do', cursive, sans-serif;;
 }
 
 #places-types a:hover {
@@ -169,53 +169,23 @@ h2 {
     background-color: #66e6ff;
 }
 
-#img-beach {
-    height: auto;
-	width: 100%;
-	margin: auto;
-}
-
-#city-box {
-	background-color: #6699ff;
-    position: relative;
-    left: 70px;
-    top: -15px;
-}
-
-#coast-box {
-	background-color: #8066ff;
-	position: relative;
-	z-index: 1;
-}
-
-#countryside-box {
-	background-color: #66e6ff;
-    position: relative;
-    right: 70px;
-    top: -15px;
-}
-
-.holiday-box {
-	width: 33%;
-	margin: 1rem 0;
-	display: inline-block;
-}
-
 .destinations-boxes {
     height: 400px;
     width: 100%;
     position: relative;
 }
 
-#beach-list {
-    width: 50%;
-    float: left;
+.destinations-boxes h3 {
+    text-decoration: underline;
+    margin-left: 5%;
 }
 
-#beach-img {
-    width: 50%;
-    float: right;
+.places-img {
+    height: auto;
+	width: 100%;
+	margin: auto;
 }
+
 
 /* footer */
 
@@ -335,6 +305,15 @@ footer {
     color: #3a3a3a;
 }
 
+#beach-list {
+    width: 50%;
+    float: left;
+}
+
+#beach-img {
+    width: 50%;
+    float: right;
+}
 
 }
 
