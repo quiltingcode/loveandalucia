@@ -33,7 +33,7 @@ header a:link {
 /* navigation links */
 
 nav {
-    padding: 1rem;
+    padding: 0.8rem;
     /* width: 100%; */
 }
 
@@ -75,10 +75,10 @@ h2 {
 #intro-box {
     /* width: 100vw; */
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     clear: both;
-    padding: 5px 30px;
+    padding: 5px 15px;
 }
 
 .border-solid {
@@ -125,7 +125,7 @@ h2 {
 /* places intro */
 
 #places-box {
-    width: 95%;
+    /* width: 95%; */
     text-align: center;
     clear: both;
     color: #252525;
