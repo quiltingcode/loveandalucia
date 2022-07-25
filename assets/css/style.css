@@ -23,7 +23,11 @@ h1 {
 header {
     background-color: white;   
     padding: 0;
-    /* width: 100%; */
+}
+
+#logo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 header a:link {
@@ -114,7 +118,7 @@ h2 {
 }
 
 #places-types a:hover {
-    opacity: 0.7;
+    color: #ffb94d;
 }
 
 #blue-nav {
@@ -133,6 +137,7 @@ h2 {
     height: 400px;
     width: 100%;
     position: relative;
+    clear: both;
 }
 
 .destinations-boxes h3 {
@@ -177,7 +182,7 @@ footer {
     float: left;
 }
 
-#email {
+#email-footer {
     float: right;
     margin-right: 1rem;
 }
@@ -201,16 +206,33 @@ footer {
 
 /* events page */
 
+#events-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #6699ff;
+    color: #3a3a3a;
+    display: block;
+    }
+    
+#events-button:hover {
+        background-color: #66e6ff;
+        color: #8066ff;
+    }
+
+
 .form-section {
     clear: left;
     background-image:  url('../images/jorge-fernandez-salas-0B1XIY4Jte8-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 700px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 75px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -268,7 +290,7 @@ footer {
 @media screen and (min-width: 820px) {
 
     nav > a {
-        margin: 1rem;
+        margin: 2rem;
     }
        
 
@@ -292,18 +314,9 @@ footer {
 /* for large screen size from 1200px wide and up */
 @media screen and (min-width: 1200px) {
 
-    #right-link {
-        padding-top: 30px;
-        width: 33%;
-        float: right;
+    body {
+        font-size: 1.5rem;
     }
-
-    #center-link {
-        padding-top: 30px;
-        width: 33%;
-        margin: 0 auto; 
-    }
-
-
+    
 
 }
