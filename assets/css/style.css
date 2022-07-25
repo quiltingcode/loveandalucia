@@ -176,7 +176,7 @@ footer {
     height: 50px;
     width: 100%;
     clear: both;
-    margin-top: 1 rem;
+    margin-top: 15px;
 }
 
 #contact-details {
@@ -289,6 +289,9 @@ footer {
 
 @media  screen and (min-width: 375px) {
    
+    .mapouter {
+        margin: auto;
+    }
     
 }
   
@@ -302,6 +305,10 @@ footer {
 
     nav > a {
         margin: 2rem;
+    }
+
+    .mapouter {
+        margin: auto;
     }
        
 
