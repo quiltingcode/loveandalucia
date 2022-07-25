@@ -87,7 +87,7 @@ h2 {
 }
 
 
-/* places intro */
+/* places page */
 
 #places-box {
     text-align: center;
@@ -144,6 +144,12 @@ h2 {
     height: auto;
 	width: 100%;
 	margin: auto;
+}
+
+/* food page */
+
+#michelin-list {
+    text-decoration: underline;
 }
 
 .food-img {
