@@ -8,8 +8,15 @@ body {
     font-family: 'Itim', cursive, sans-serif;
     font-weight: 400;
     color: #3a3a3a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-    
+
+main {
+    flex-grow: 1;
+}
+
 /* headings and logo */
 
 
@@ -134,7 +141,6 @@ h2 {
 }
 
 .destinations-boxes {
-    height: 400px;
     width: 100%;
     position: relative;
     clear: both;
@@ -170,6 +176,7 @@ footer {
     height: 50px;
     width: 100%;
     clear: both;
+    margin-top: 1 rem;
 }
 
 #contact-details {
@@ -288,6 +295,10 @@ footer {
   
 /* for medium tablet screen size from 820px wide and up */
 @media screen and (min-width: 820px) {
+
+    body {
+        font-size: 1.5rem;
+    }
 
     nav > a {
         margin: 2rem;
