@@ -187,11 +187,13 @@ footer {
 
 #tel {
     float: left;
+    /* margin-top: 2%; */
 }
 
 #email-footer {
     float: right;
     margin-right: 1rem;
+    /* margin-top: 2%; */
 }
 
 .social-networks {
@@ -307,9 +309,7 @@ footer {
         margin: 2rem;
     }
 
-    .mapouter {
-        margin: auto;
-    }
+
        
 
 
