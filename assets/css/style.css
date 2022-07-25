@@ -153,7 +153,7 @@ h2 {
 
 /* food page */
 
-#michelin-list {
+.underlined {
     text-decoration: underline;
 }
 
