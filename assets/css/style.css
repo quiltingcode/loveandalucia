@@ -90,7 +90,6 @@ h2 {
 /* places intro */
 
 #places-box {
-    /* width: 95%; */
     text-align: center;
     clear: both;
     color: #252525;
@@ -159,12 +158,28 @@ h2 {
 footer {
     height: 50px;
     width: 100%;
-    margin: 0;
     clear: both;
 }
 
+#contact-details {
+    display: inline;
+    clear: both;
+
+}
+
+#tel {
+    float: left;
+}
+
+#email {
+    float: right;
+    margin-right: 1rem;
+}
+
 .social-networks {
-    text-align: center;
+   text-align: center;
+   padding-right: 40px;
+   margin-top: 0;
 }
 
 .social-networks > li {
@@ -172,8 +187,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
+    font-size: 2rem;
+    /* margin: 1%; */
+    padding: 1rem;
     color: #3a3a3a;
 }
 
