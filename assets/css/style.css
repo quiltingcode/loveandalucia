@@ -257,24 +257,33 @@ th, td {
 	border: 1px solid black;
 	padding: 5px;
 }
-    
 
+#button-section {
+    margin-top: 1 rem;
+}
+    
 #events-button {
     margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    border-radius: 5px;
+    width: 75%;
+    padding: 15px 10px 15px 10px;
     text-align: center;
-    font-size: 100%;
-    background-color: #6699ff;
-    color: #3a3a3a;
+    font-size: 1.2rem;
+    background-color: #66e6ff;
+    color: #252525;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border: 3px solid #8066ff;
     }
     
 #events-button:hover {
-        background-color: #66e6ff;
-        color: #8066ff;
+        
+        color: #66e6ff;
     }
 
+   /* form page */ 
 
 .form-section {
     clear: left;
