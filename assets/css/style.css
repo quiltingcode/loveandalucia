@@ -148,6 +148,7 @@ h2 {
     width: 100%;
     position: relative;
     clear: both;
+
 }
 
 .destinations-boxes h3 {
@@ -343,6 +344,12 @@ th, td {
 /* for small mobile screen size from 375px wide and up */
 
 @media  screen and (min-width: 375px) {
+
+    body {
+        font-size: 1.3rem;
+        /* margin-left: 10%;
+        margin-right: 10%; */
+    }
    
     .mapouter {
         margin: auto;
@@ -369,8 +376,8 @@ th, td {
 
     body {
         font-size: 1.5rem;
-        margin-left: 10%;
-        margin-right: 10%;
+        /* margin-left: 10%;
+        margin-right: 10%; */
     }
 
     nav > a {
@@ -389,6 +396,19 @@ th, td {
 
     .food-img {
         max-width: 500px;
+    }
+
+    .left {
+        float: left;
+        width: 33%;
+        margin-bottom: 7%;
+        clear: left;
+    }
+
+    .right {
+        float: right;
+        margin-bottom: 3%;
+    
     }
 
     #tel {
@@ -433,5 +453,17 @@ th, td {
         margin-left: auto;
         margin-right: auto;
     }   
+
+    .left {
+        float: left;
+        margin-bottom: 5%;
+    }
+
+    .right {
+        float: right;
+        margin-bottom: 3%;
+    
+    }
+
     
 }
