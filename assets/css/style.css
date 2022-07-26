@@ -54,6 +54,7 @@ nav {
 
 .blue-background {
     background-color: cornflowerblue;
+    color: #252525;
 }
 
 nav > a {
@@ -78,8 +79,8 @@ h2 {
 }
 
 #img-sunset {
-    /* height: auto;
-	width: 100%; */
+    height: auto;
+	width: 100%;
 	margin-left: auto;
     margin-right: auto;
     max-width: 820px;
@@ -182,10 +183,12 @@ h2 {
 /* footer */
 
 footer {
-    height: 50px;
+    height: 100px;
     width: 100%;
     clear: both;
     margin-top: 15px;
+    bottom: 0;
+    
 }
 
 #contact-details {
@@ -196,19 +199,21 @@ footer {
 
 #tel {
     float: left;
-    /* margin-top: 2%; */
+    margin-top: 2%;
+    margin-left: 16px;
 }
 
 #email-footer {
     float: right;
     margin-right: 1rem;
-    /* margin-top: 2%; */
+    margin-top: 2%;
 }
 
 .social-networks {
    text-align: center;
    padding-right: 40px;
    margin-top: 0;
+   clear: both;
 }
 
 .social-networks > li {
@@ -356,7 +361,6 @@ footer {
         max-width: 820px;
         margin-left: auto;
         margin-right: auto;
-
+    }   
     
-
 }
