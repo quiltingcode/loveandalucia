@@ -376,8 +376,6 @@ th, td {
 
     body {
         font-size: 1.5rem;
-        /* margin-left: 10%;
-        margin-right: 10%; */
     }
 
     nav > a {
@@ -421,10 +419,6 @@ th, td {
         margin-top: 2%;
     }
 
-
-       
-
-
 .social-networks i {
     font-size: 160%;
     margin: 1%;
@@ -446,6 +440,8 @@ th, td {
 
     body {
         font-size: 1.5rem;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     #img-sunset {
