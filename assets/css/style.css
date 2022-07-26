@@ -345,12 +345,6 @@ th, td {
 
 @media  screen and (min-width: 375px) {
 
-    body {
-        font-size: 1.3rem;
-        /* margin-left: 10%;
-        margin-right: 10%; */
-    }
-   
     .mapouter {
         margin: auto;
     }
@@ -365,6 +359,11 @@ th, td {
 
     .food-img {
         max-width: 500px;
+    }
+
+    #events-table {
+        margin-left: 2%;
+        margin-right: 2%;  
     }
 
     
@@ -429,6 +428,11 @@ th, td {
 #beach-list {
     width: 50%;
     float: left;
+}
+
+#events-table {
+    margin-left: 5%;
+    margin-right: 5%;  
 }
 
 }
