@@ -44,7 +44,7 @@ header a:link {
 /* navigation links */
 
 nav {
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .text-center {
@@ -369,6 +369,10 @@ th, td {
 
     body {
         font-size: 1.5rem;
+    }
+
+    nav {
+        padding: 0.5em;
     }
 
     nav>a {
