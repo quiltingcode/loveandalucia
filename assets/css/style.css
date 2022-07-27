@@ -471,3 +471,17 @@ th, td {
         margin-right: 5%;
     }
 }
+
+/* for large screen size from 1400px wide and up */
+@media screen and (min-width: 1400px) {
+
+    body {
+        font-size: 2rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #places-types div {
+        height: 150px;
+
+}
