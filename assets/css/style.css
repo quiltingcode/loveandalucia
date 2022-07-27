@@ -435,6 +435,7 @@ th, td {
 
     .form-section {
         height: 80vh;
+        font-size: 1.1rem;
     }
 
 }
@@ -488,5 +489,16 @@ th, td {
     #places-types div {
         height: 150px;
     }
+
+    .signup-form {
+        margin: 50px 10% 0;
+
+    }
+
+    .form-section {
+        height: 80vh;
+        font-size: 1.4rem;
+    }
+
 
 }
