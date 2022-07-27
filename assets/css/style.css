@@ -339,6 +339,11 @@ th, td {
     color: #8066ff;
 }
 
+ /* form confirmation page */ 
+
+ #confirmation-link {
+    color: #fff;
+ }
 
 
 /* for small mobile screen size from 375px wide and up */
