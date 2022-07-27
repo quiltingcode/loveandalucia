@@ -223,7 +223,6 @@ footer {
 
 .social-networks i {
     font-size: 2rem;
-    /* margin: 1%; */
     padding: 1rem;
     color: #3a3a3a;
 }
@@ -292,6 +291,7 @@ th, td {
     background-size: cover;
     background-position: center;
     height: 700px;
+    margin-top: 0.5rem;
 }
 
 .signup-form {
@@ -437,6 +437,10 @@ th, td {
 #events-table {
     margin-left: 5%;
     margin-right: 5%;  
+}
+
+#events-button {
+    font-size: 1.6rem;
 }
 
 .form-section {
