@@ -363,8 +363,8 @@ th, td {
 }
 
 
-/* for medium tablet screen size from 820px wide and up */
-@media screen and (min-width: 820px) {
+/* for medium tablet screen size from 800px wide and up */
+@media screen and (min-width: 800px) {
 
     body {
         font-size: 1.5rem;
@@ -435,7 +435,7 @@ th, td {
     }
 
     .form-section {
-        height: 900px;
+        height: 80vh;
     }
 
 }
