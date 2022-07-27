@@ -28,7 +28,6 @@ h1 {
 }
 
 header {
-    background-color: white;
     padding: 0;
 }
 
@@ -277,7 +276,7 @@ th, td {
 
 .form-section {
     clear: left;
-    background-image: url('../images/jorge-fernandez-salas-0B1XIY4Jte8-unsplash.jpg');
+    background-image: url('../images/tinyimages/jorge-fernandez-salas-0B1XIY4Jte8-unsplash_1tinified.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
