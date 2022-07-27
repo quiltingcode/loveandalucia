@@ -28,7 +28,7 @@ h1 {
 }
 
 header {
-    background-color: white;   
+    background-color: white;
     padding: 0;
 }
 
@@ -45,7 +45,6 @@ header a:link {
 
 nav {
     padding: 0.5rem;
-    /* width: 100%; */
 }
 
 .text-center {
@@ -57,13 +56,13 @@ nav {
     color: #252525;
 }
 
-nav > a {
-	text-decoration: none;
-	color: #252525;
-	margin: 0.5rem;
+nav>a {
+    text-decoration: none;
+    color: #252525;
+    margin: 0.5rem;
 }
 
-nav > a:hover {
+nav>a:hover {
     color: #ffb94d;
 }
 
@@ -80,27 +79,22 @@ h2 {
 
 #img-sunset {
     height: auto;
-	width: 100%;
-	margin-left: auto;
+    width: 100%;
+    margin-left: auto;
     margin-right: auto;
     max-width: 820px;
     display: block;
 }
 
 .text-box {
-    /* width: 100vw; */
     text-align: justify;
-    /* margin-left: 10px;
-    margin-right: 10px; */
     clear: both;
     padding: 5px 15px;
-    
 }
 
 .border-solid {
-    border-style: solid; 
+    border-style: solid;
 }
-
 
 /* places page */
 
@@ -125,7 +119,7 @@ h2 {
 #places-types a {
     color: #3a3a3a;
     text-decoration: none;
-    font-family: 'Nothing You Could Do', cursive, sans-serif;;
+    font-family: 'Nothing You Could Do', cursive, sans-serif;
 }
 
 #places-types a:hover {
@@ -148,7 +142,6 @@ h2 {
     width: 100%;
     position: relative;
     clear: both;
-
 }
 
 .destinations-boxes h3 {
@@ -158,7 +151,7 @@ h2 {
 
 .places-img {
     height: auto;
-	width: 100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     max-width: 820px;
@@ -173,7 +166,7 @@ h2 {
 
 .food-img {
     height: auto;
-	width: 100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     max-width: 820px;
@@ -189,13 +182,11 @@ footer {
     clear: both;
     margin-top: 15px;
     bottom: 0;
-    
 }
 
 #contact-details {
     display: inline;
     clear: both;
-
 }
 
 #tel {
@@ -211,13 +202,13 @@ footer {
 }
 
 .social-networks {
-   text-align: center;
-   padding-right: 40px;
-   margin-top: 0;
-   clear: both;
+    text-align: center;
+    padding-right: 40px;
+    margin-top: 0;
+    clear: both;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -235,8 +226,8 @@ footer {
     margin-right: auto;
     max-width: 820px;
     display: block;
-    background-color: rgba(128,102,255, 0.3);
-    
+    background-color: rgba(128, 102, 255, 0.3);
+
 }
 
 #events-table tr {
@@ -250,18 +241,18 @@ th {
 }
 
 tr, td {
-	text-align: left;
+    text-align: left;
 }
 
 th, td {
-	border: 1px solid black;
-	padding: 5px;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 #button-section {
     margin-top: 1 rem;
 }
-    
+
 #events-button {
     margin-top: 20px;
     border-radius: 5px;
@@ -276,18 +267,17 @@ th, td {
     margin-right: auto;
     text-decoration: none;
     border: 3px solid #8066ff;
-    }
-    
-#events-button:hover {
-        
-        color: #8066ff;
-    }
+}
 
-   /* form page */ 
+#events-button:hover {
+    color: #8066ff;
+}
+
+/* form page */
 
 .form-section {
     clear: left;
-    background-image:  url('../images/jorge-fernandez-salas-0B1XIY4Jte8-unsplash.jpg');
+    background-image: url('../images/jorge-fernandez-salas-0B1XIY4Jte8-unsplash.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -304,7 +294,7 @@ th, td {
     padding: 30px;
 }
 
-.signup-form > h2 {
+.signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -339,16 +329,17 @@ th, td {
     color: #8066ff;
 }
 
- /* form confirmation page */ 
+/* form confirmation page */
 
- #confirmation-link {
+#confirmation-link {
     color: #fff;
- }
+}
 
+/* media queries */
 
 /* for small mobile screen size from 375px wide and up */
 
-@media  screen and (min-width: 375px) {
+@media screen and (min-width: 375px) {
 
     .mapouter {
         margin: auto;
@@ -368,13 +359,11 @@ th, td {
 
     #events-table {
         margin-left: 2%;
-        margin-right: 2%;  
+        margin-right: 2%;
     }
-
-    
 }
-  
-  
+
+
 /* for medium tablet screen size from 820px wide and up */
 @media screen and (min-width: 820px) {
 
@@ -382,7 +371,7 @@ th, td {
         font-size: 1.5rem;
     }
 
-    nav > a {
+    nav>a {
         margin: 2rem;
     }
 
@@ -410,46 +399,43 @@ th, td {
     .right {
         float: right;
         margin-bottom: 3%;
-    
     }
 
     #tel {
         margin-top: 2%;
         margin-left: 3rem;
     }
-    
+
     #email-footer {
         margin-right: 3rem;
         margin-top: 2%;
     }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    color: #3a3a3a;
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        color: #3a3a3a;
+    }
+
+    #beach-list {
+        width: 50%;
+        float: left;
+    }
+
+    #events-table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #events-button {
+        font-size: 1.6rem;
+    }
+
+    .form-section {
+        height: 900px;
+    }
+
 }
-
-#beach-list {
-    width: 50%;
-    float: left;
-}
-
-#events-table {
-    margin-left: 5%;
-    margin-right: 5%;  
-}
-
-#events-button {
-    font-size: 1.6rem;
-}
-
-.form-section {
-    height: 900px;
-}
-
-}
-
-
 
 /* for large screen size from 1200px wide and up */
 @media screen and (min-width: 1200px) {
@@ -464,7 +450,7 @@ th, td {
         max-width: 820px;
         margin-left: auto;
         margin-right: auto;
-    }   
+    }
 
     .left {
         float: left;
@@ -474,8 +460,6 @@ th, td {
     .right {
         float: right;
         margin-bottom: 3%;
-    
-    }
 
-    
+    }
 }
