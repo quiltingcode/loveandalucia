@@ -403,7 +403,7 @@ th, td {
     .left {
         float: left;
         width: 33%;
-        margin-bottom: 7%;
+        margin-bottom: 10%;
         clear: left;
     }
 
@@ -464,7 +464,7 @@ th, td {
 
     .left {
         float: left;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .right {
