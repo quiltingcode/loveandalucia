@@ -250,7 +250,7 @@ th, td {
 }
 
 #button-section {
-    margin-top: 1 rem;
+    margin-top: 1rem;
 }
 
 #events-button {
@@ -461,5 +461,10 @@ th, td {
         float: right;
         margin-bottom: 3%;
 
+    }
+
+    #events-table {
+        margin-left: 10%;
+        margin-right: 5%;
     }
 }
