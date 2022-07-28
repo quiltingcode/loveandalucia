@@ -275,7 +275,7 @@ th, td {
 
 .form-section {
     clear: left;
-    background-image: url('../images/tinyimages/jorge-fernandez-salas-0B1XIY4Jte8-unsplash_1tinified.jpg');
+    background-image: url('../images/beachbackground.jpg');
     background-size: cover;
     background-position: center;
     height: 750px;
@@ -435,6 +435,8 @@ th, td {
 
     .form-section {
         font-size: 1.1rem;
+        height: 80vh;
+
     }
 
 }
@@ -495,8 +497,7 @@ th, td {
     }
 
     .form-section {
-        height: 80vh;
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 
 
