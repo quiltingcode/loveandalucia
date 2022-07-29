@@ -291,4 +291,4 @@ The site was completed as a Portfolio 1 Project piece for the Full Stack Softwar
 
 Kelly Hutchison 2022.
 
-[Back to top](<#contents>)s
+[Back to top](<#contents>)
