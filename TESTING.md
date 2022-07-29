@@ -10,7 +10,7 @@ The Love Andalucia site has been passed through the [W3C html Validator](https:/
 
 * Index.html - 2 warnings and 6 errors.
 
-The 6 errors are all a result of the google generated html code which I inserted to show a map on the home page. 
+The 6 errors are all a result of the google generated html code which I inserted to show a map on the home page. I have removed all the elements classed by the W3C as obsolete, and I have moved all the stlye code across to the style sheet. W3C errors are no longer produced, and the map still generates correctly.
 
 The 2 warnings are because I created two sections without a header element. I have removed these two section elements and left only the div elements inside, and the warnings are no longer produced.
 
