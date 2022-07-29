@@ -118,9 +118,9 @@ Love Andalucia was tested on the following browsers:
 - Microsoft Edge
 - Mozilla Firefox
 
-I do not have any Apply devices available to carry out testing on a Safari browser. Appearance and functionality appear to be consistent throughout all browsers.
+I do not have any Apple devices available to carry out testing on a Safari browser. Appearance and functionality appear to be consistent throughout all browsers.
 
-In the Firefox and Edge browsers, two of the photos in the Places page do not load. I do, however, see a description of the photo from the alt text in the code. I compressed the two files using and  <https://tinypng.com/>. I also renamed all the image files to be simpler with no spaces, and reviewed the file paths of all the photos across the site.   
+In the Firefox and Edge browsers, two of the photos in the Places page do not load. I do, however, see a description of the photo from the alt text in the code. I compressed the two files using and  <https://tinypng.com/>. I also renamed all the image files to be simpler with no spaces, and reviewed the file paths of all the photos across the site. Images now load correctly.  
 
 ## Known Bugs
 
@@ -155,9 +155,7 @@ I used the Lighthouse test within Google Chrome Dev Tools to test the following:
 
 The results were overall very positive:
 
-![Graphical user interface, application
-
-Description automatically generated](Aspose.Words.fb71f0ae-88cf-4d73-b730-8500819bf755.007.png)
+![Lighthouse report](assets/readmeimages/lighthouse.PNG)
 
 ## Peer Review
 

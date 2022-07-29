@@ -95,6 +95,22 @@ h2 {
     border-style: solid;
 }
 
+/* map */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 249px;
+    width: 363px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 249px;
+    width: 363px;
+}
+
 /* places page */
 
 #places-box {

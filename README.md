@@ -286,8 +286,7 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
 * The map code was generated from https://google-map-generator.com/
 * The colour palette was created with the help of https://sessions.edu 
 * The inspiration for the three category boxes came from the Love Running Walk Through Project Meetup Times boxes.
-
-
+* I asked the slack community for help transferring my README file from a word document into the git hub repository. They suggested I use this https://products.aspose.app/words/conversion/word-to-md conversion website to convert my word docs to md docs. This worked for the TESTING file, although I had to add the images in, but it didn't work so well for the README file so I ended up writing this back into GitPod.
 
 ### Media
 * The images used in this website are sourced from https://unsplash.com and https://pixabay.com
