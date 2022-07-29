@@ -233,6 +233,8 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
   3. Under **Source**, select the branch to **master**, then click **save**.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate a successful deployment.
 
+![Deploy image](assets/readmeimages/deploy.png)
+
   The live link to the Github repository can be found here - https://quiltingcode.github.io/loveandalucia/
 
 ### **To fork the repository using GitHub**
@@ -240,7 +242,7 @@ A copy of the GitHub Repository can be made by forking the GitHub account. This 
 1. Log in to **GitHub** and locate the [repository](https://github.com/quiltingcode/loveandalucia).
 2. On the right hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
 
-![GitHub fork image](assets/readmeimages/)
+![GitHub fork image](assets/readmeimages/fork.png)
 
 ### **To create a local clone of this project**
 The method from cloning a project from GitHub is below:
@@ -248,7 +250,7 @@ The method from cloning a project from GitHub is below:
 1. Under the repository’s name, click on the **code** tab.
 2. In the **Clone with HTTPS** section, click on the clipboard icon to copy the given URL.
 
-![Cloning image](assets/readmeimages/)
+![Cloning image](assets/readmeimages/clone.png)
 
 3. In your IDE of choice, open **Git Bash**.
 4. Change the current working directory to the location where you want the cloned directory to be made.
