@@ -245,48 +245,18 @@ The site was deployed to GitHub pages. The steps to deploy a site are as follows
     * https;//www.airport-malaga.com
     * https;//en.m.wikipedia.org/wiki/Andalusia
     *  https;//www.visit-andalucia.com
-•	Instructions on how to create responsive break points using the mobile first approach were taken from https://kinsta.com/blog/responsive-web-design/#set-your-media-query-ranges-responsive-breakpoints
-•	Information used to write the top 5 coastal retreats was taken from: https://www.ruralidays.co.uk/travel/beaches/best-beaches-in-andalucia-spain/
-•	Information for the top 5 beaches was taken from https://www.andalucia.com/top10s/beaches.htm 
-•	Information for the events was taken from https://www.andalucia.com/festival/home.htm
-•	Instructions on how to implement form validation was taken from the Code Institute CSS module videos.
-•	The icons in the footer were taken from Font Awesome
-•	The fonts were taken from Google Fonts
-•	The map code was generated from https://google-map-generator.com/
-•	The colour palette was created with the help of https://sessions.edu 
-•	The inspiration for the three category boxes came from the Love Running Walk Through Project Meetup Times boxes.
-•	Instructions on how to create responsive break points using the mobile first approach were taken from https://kinsta.com/blog/responsive-web-design/#set-your-media-query-ranges-responsive-breakpoints
-•	Information used to write the top 5 coastal retreats was taken from: https://www.ruralidays.co.uk/travel/beaches/best-beaches-in-andalucia-spain/
-•	Information for the top 5 beaches was taken from https://www.andalucia.com/top10s/beaches.htm 
-•	Information for the events was taken from https://www.andalucia.com/festival/home.htm
-•	Instructions on how to implement form validation was taken from the Code Institute CSS module videos.
-•	The icons in the footer were taken from Font Awesome
-•	The fonts were taken from Google Fonts
-•	The map code was generated from https://google-map-generator.com/
-•	The colour palette was created with the help of https://sessions.edu 
-•	The inspiration for the three category boxes came from the Love Running Walk Through Project Meetup Times boxes.
-•	Instructions on how to create responsive break points using the mobile first approach were taken from https://kinsta.com/blog/responsive-web-design/#set-your-media-query-ranges-responsive-breakpoints
-•	Information used to write the top 5 coastal retreats was taken from: https://www.ruralidays.co.uk/travel/beaches/best-beaches-in-andalucia-spain/
-•	Information for the top 5 beaches was taken from https://www.andalucia.com/top10s/beaches.htm 
-•	Information for the events was taken from https://www.andalucia.com/festival/home.htm
-•	Instructions on how to implement form validation was taken from the Code Institute CSS module videos.
-•	The icons in the footer were taken from Font Awesome
-•	The fonts were taken from Google Fonts
-•	The map code was generated from https://google-map-generator.com/
-•	The colour palette was created with the help of https://sessions.edu 
-•	The inspiration for the three category boxes came from the Love Running Walk Through Project Meetup Times boxes.
-* Instructions on how to create responsive break points using the mobile first approach were taken from https://kinsta.com/blog/responsive-web-design/#set-your-media-query-ranges-responsive-breakpoints
-* Information used to write the top 5 coastal retreats was taken from: https://www.ruralidays.co.uk/travel/beaches/best-beaches-in-andalucia-spain/
-* Information for the top 5 beaches was taken from https://www.andalucia.com/top10s/beaches.htm 
-* Information for the events was taken from https://www.andalucia.com/festival/home.htm
+* Instructions on how to create responsive break points using the mobile first approach were taken from [Kinsta.com](https://kinsta.com/blog/responsive-web-design/#set-your-media-query-ranges-responsive-breakpoints)
+* Information used to write the top 5 coastal retreats was taken from: [Ruralidays.co.uk](https://www.ruralidays.co.uk/travel/beaches/best-beaches-in-andalucia-spain/)
+* Information for the top 5 beaches was taken from [Andalucia.com](https://www.andalucia.com/top10s/beaches.htm)
+* Information for the events was also taken from [Andalucia.com](https://www.andalucia.com/festival/home.htm)
 * [Balsamiq](https://balsamiq.com/wireframes/) was used to create the wireframes.
 * Instructions on how to implement form validation was taken from the Code Institute CSS module videos.
-* The icons in the footer were taken from Font Awesome
-* The fonts were taken from Google Fonts
-* The map code was generated from https://google-map-generator.com/
-* The colour palette was created with the help of https://sessions.edu 
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* The fonts were taken from [Google Fonts](https://fonts.google.com/)
+* The map code was generated from [Google Map Generator](https://google-map-generator.com/)
+* The colour palette was created with the help of [Sessions.edu](https://sessions.edu) 
 * The inspiration for the three category boxes came from the Love Running Walk Through Project Meetup Times boxes.
-* I asked the slack community for help transferring my README file from a word document into the git hub repository. They suggested I use this https://products.aspose.app/words/conversion/word-to-md conversion website to convert my word docs to md docs. This worked for the TESTING file, although I had to add the images in, but it didn't work so well for the README file so I ended up writing this back into GitPod.
+* I asked the slack community for help transferring my README file from a word document into the git hub repository. They suggested I use this [conversion website](https://products.aspose.app/words/conversion/word-to-md)  to convert my word docs to md docs. This worked for the TESTING file, although I had to add the images in, but it didn't work so well for the README file so I ended up writing this back into GitPod.
 
 ### Media
 * The images used in this website are sourced from https://unsplash.com and https://pixabay.com

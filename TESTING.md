@@ -8,13 +8,9 @@ The Love Andalucia site has been passed through the [W3C html Validator](https:/
 
 ## W3C html Validation Results
 
-* Index.html - 2 warnings and 6 errors.
+* Index.html - 2 warnings and 6 errors. Details of these can be found in the [Bugs](<#known-bugs>) section. All the issues were easily fixed and after a retest, no more errors were returned.
 
-The 6 errors are all a result of the google generated html code which I inserted to show a map on the home page. I have removed all the elements classed by the W3C as obsolete, and I have moved all the stlye code across to the style sheet. W3C errors are no longer produced, and the map still generates correctly.
-
-The 2 warnings are because I created two sections without a header element. I have removed these two section elements and left only the div elements inside, and the warnings are no longer produced.
-
-![W3C html home page validation results](assets/readmeimages/htmlvalidationerrors.PNG)
+![W3C html home page validation results](assets/readmeimages/w3chtmlpass.PNG)
 
 * Places.html -  
 
@@ -24,11 +20,7 @@ The 2 warnings are because I created two sections without a header element. I ha
 
 ![W3C html food page validation results](assets/readmeimages/w3chtmlpass.PNG)
 
-* Events.html -  2 errors and 2 warnings found.
-
-![W3C html events page validation results](assets/readmeimages/w3cevents.PNG)
-
-These errors were caused when I re-arranged my table into chronological order, but somehow managed to leave one <tr> element without it’s closing tag. This has now been corrected and the indentation re-formatted. I run the html code through a second time and returned no errors.
+* Events.html -  2 errors and 2 warnings found. Details of these can be found in the [Bugs](<#known-bugs>) section. All the issues were easily fixed and after a retest, no more errors were returned.
 
 ![W3C html events page validation pass results](assets/readmeimages/w3chtmlpass.PNG)
 
@@ -42,11 +34,7 @@ These errors were caused when I re-arranged my table into chronological order, b
 
 ## W3C CSS Validation Results
 
-* Style.css – 1 error found.
-
-![CSS validation test results](assets/readmeimages/cssvalidationerror.PNG)
-
-I corrected this spacing issue in the typing of 1rem and re-run the CSS code through the validator. The second time, no errors are returned. 
+* Style.css – 1 error found. Details of the error can be found in the [Bugs](<#known-bugs>) section. The issue was easily fixed and after a retest, no more errors were returned.
 
 ![CSS validation test pass results](assets/readmeimages/cssvalidation.PNG)
 
@@ -137,6 +125,26 @@ In the Firefox and Edge browsers, two of the photos in the Places page do not lo
 5. When I started researching how to make the images responsive to the device size as the photos would increase but not remain centred when moving up from mobile size to tablet size for example. I changed the styling to display the images as block elements with margin: auto and this solved the centring issue.
 
 6. I add font awesome icons next to the footer telephone number and email instead of writing the words, but the icons wouldn’t load in the browser. This was due to the version of the icons not being compatible with the browser, so I changed the fal version to the older fas version and these icons load correctly now. 
+
+7. As a result of the W3C html validation test, the home page had 6 errors and 2 warnings. 
+
+![home page html validation errors](assets/readmeimages/htmlvalidationerrors.PNG)
+
+The 6 errors are all a result of the google generated html code which I inserted to show a map on the home page. I have removed all the elements classed by the W3C as obsolete, and I have moved all the stlye code across to the style sheet. W3C errors are no longer produced, and the map still generates correctly.
+
+The 2 warnings are because I created two sections without a header element. I have removed these two section elements and left only the div elements inside, and the warnings are no longer produced.
+
+8. As a result of the W3C html validation test, the events page had 2 errors and 2 warnings. 
+
+![W3C html events page validation results](assets/readmeimages/w3cevents.PNG)
+
+These errors were caused when I re-arranged my table into chronological order, but somehow managed to leave one <tr> element without it’s closing tag. This has now been corrected and the indentation re-formatted. I run the html code through a second time and returned no errors.
+
+9. As a result of the W3C CSS validation test, 1 error was found.
+
+![CSS validation test results](assets/readmeimages/cssvalidationerror.PNG)
+
+I corrected this spacing issue in the typing of 1rem and re-run the CSS code through the validator. The second time, no errors were returned. 
 
 ### Unresolved
 
